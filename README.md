@@ -1,6 +1,6 @@
 # PixelRecognitionAI
 
-Artifical intelligence for recognize shape of a 2x2 pixel image using NodeJS.
+Artificial intelligence for recognize shape of a 2x2 pixel image using NodeJS.
 
 **Synaptic**
 
