@@ -4,7 +4,14 @@ var train = require('../network/train.js')
 console.log(networks)
 
 input = [
-  [0.5,0.5,0.5,0.5]
+  [1,1,1,1],
+  [0,0,0,0],
+  [1,1,0,0],
+  [0,0,1,1],
+  [1,0,1,0],
+  [0,1,0,1],
+  [1,0,0,1],
+  [0,1,1,0],
 ]
 
 train.train(networks, function (trainedNetwork) {
