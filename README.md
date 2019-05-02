@@ -12,6 +12,7 @@ The module Jimp.js was used to get the rgba information from each image pixel.
 
 # Use
 
+The image used must be in greyscale, we haven't implemented any other color so far. This code only tells if there's a shape close to black or white.
 ```
 > node main.js filename
 ```
