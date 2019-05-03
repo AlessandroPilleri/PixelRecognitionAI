@@ -1,13 +1,13 @@
 function train(network, callback) {
 
   var learningRate = .3;
-  var n = 20000
-  var percentRate = n / 100
+  var n = 20000;
+  var percentRate = n / 100;
 
   for (var i = 0; i < n; i++) {
 
 	if (i % percentRate == 0) {
-		console.log(i * 100 / n + "%")
+		console.log(i * 100 / n + "%");
 	}
     // red network
     network.redNetwork.activate([1,1]);
